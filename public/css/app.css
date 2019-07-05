@@ -11100,8 +11100,14 @@ a.text-dark:focus {
   }
 }
 
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
 header nav {
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -11110,11 +11116,60 @@ header nav {
           justify-content: center;
   -webkit-box-pack: justify;
           justify-content: space-between;
+  padding: 10px;
+}
+
+header nav .logo {
+  width: 200px;
+}
+
+header nav .logo img {
+  max-width: 100%;
+}
+
+header nav .nav-item {
+  margin-right: 20px;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.jumbo_slider {
+  margin-top: 70px;
+}
+
+.info_jumbo,
+.img_jumbo {
+  width: 50%;
+}
+
+.info_jumbo {
+  padding: 100px;
+}
+
+.img_jumbo img {
+  max-width: 500px;
+}
+
+.btn-mod {
+  background-color: #f6993f;
+  color: white;
+}
+
+.btn-mod:hover {
+  background-color: #f6993f;
+  color: white;
 }
 

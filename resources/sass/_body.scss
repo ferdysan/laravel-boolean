@@ -3,3 +3,25 @@
   margin :0;
   padding: 0;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo_slider{
+  margin-top: 70px;
+}
+
+.info_jumbo, .img_jumbo{
+  width: 50%;
+}
+
+.info_jumbo{
+  padding: 100px;
+}
+
+.img_jumbo img{
+  max-width: 500px;
+}

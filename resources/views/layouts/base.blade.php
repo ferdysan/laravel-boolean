@@ -12,12 +12,10 @@
         @yield('header')
       </nav>
     </header>
-
-    <div class="main">
+    <div class="jumbo_slider">
       <div class="container">
-
+        @yield('jumbo_slider')
       </div>
-
     </div>
 
 
