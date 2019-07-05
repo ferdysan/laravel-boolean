@@ -24,3 +24,25 @@ header nav{
     margin-right: 20px;
   }
 }
+
+.box-green{
+  background-color: #61ce4e;
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.box-green:after {
+    content: "";
+    width: 300px;
+    height: 133%;
+    position: absolute;
+    left: -138px;
+    -webkit-transform: rotate(32deg);
+    transform: rotate(32deg);
+    top: 0;
+    background: #61ce4e;
+}

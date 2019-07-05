@@ -38,7 +38,8 @@
     <a class="btn btn-link btn-mod" href="#">SCOPRI IL CORSO</a>
   </div>
   <div class="img_jumbo">
+    <div class="box-green">
+    </div>
     <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
   </div>
-
 @endsection

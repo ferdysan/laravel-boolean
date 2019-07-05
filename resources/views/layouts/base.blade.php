@@ -17,6 +17,13 @@
         @yield('jumbo_slider')
       </div>
     </div>
+    <div class="cont_assunzioni">  
+        @yield('jumbo_slider')
+    </div>
+
+    <footer>
+
+    </footer>
 
 
   </body>
