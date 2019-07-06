@@ -1,45 +1,77 @@
-{{-- parte di codice relaviva all'header --}}
-@extends('layouts.header')
-@section('header')
 
-  <div class="logo">
-    <a href="#"><img src="https://www.boolean.careers/images/common/logo.png"></a>
-  </div>
-
-  <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Corso</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Metodo</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Dopo il corso</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Lezione Gratuita</a>
-  </li>
-  <li class="nav-item">
-    <a class="btn btn-link btn-mod" href="#">Iscriviti</a>
-  </li>
-</ul>
-@endsection
-
-
-{{-- parte di codice relativa al mani --}}
+{{-- parte di codice relativa al main --}}
 @extends('layouts.base')
-@section('jumbo_slider')
-  <div class="info_jumbo">
-    <h1>Diventa uno sviluppatore</h1>
-    <p>6 mesi di corso intensivo online in diretta per imparare da zero il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</p>
-    <a class="btn btn-link btn-mod" href="#">SCOPRI IL CORSO</a>
-  </div>
-  <div class="img_jumbo">
-    <div class="box-green">
+@section('content')
+  <div class="container">
+    <div class="info_jumbo">
+      <h1>Diventa uno sviluppatore</h1>
+      <p>6 mesi di corso intensivo online in diretta per imparare da zero il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</p>
+      <a class="btn btn-link btn-mod" href="#">SCOPRI IL CORSO</a>
     </div>
-    <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
+    <div class="img_jumbo">
+      <div class="box-green">
+      </div>
+      <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
+    </div>
   </div>
+
+  <div class="partners col-auto">
+    <h2>I nostri studenti sono stati assunti da</h2>
+    <div class="partner">
+      <div class="col-auto">
+        <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      </div>
+      <div class="col-auto">
+        <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      </div>
+      <div class="col-auto">
+        <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      </div>
+      <div class="col-auto">
+        <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg-color">
+    <div class="col-5">
+      <h2>6 mesi e sei sviluppatore</h2>
+      <p>Boolean è un corso di 700 ore finalizzato all'inserimento lavorativo. Niente teoria che rimane solo sui libri, impara skill pratiche che ti preparano ad entrare subito nel mondo del lavoro.</p>
+      <a class="btn btn-link btn-mod" href="#">SCOPRI IL CORSO</a>
+    </div>
+    <div class="col-5">
+      <ul>
+        <i class="fas fa-rocket"></i>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>HTML, CSS (SCSS), GIT</li>
+        </div>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>Javascript, jQuery</li>
+        </div>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>PHP (OOP), SQL, Wordpress</li>
+        </div>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>PHP (MVC), ORM, Laravel, REST</li>
+        </div>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>Javascript ES6, VueJS</li>
+        </div>
+        <div class="roadmap">
+        <span>Mese 1</span>
+         <li>Progetto finale</li>
+        </div>
+        <i class="far fa-flag"></i>
+      </ul>
+    </div>
+
+  </div>
+
+
+
 @endsection

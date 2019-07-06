@@ -1,0 +1,29 @@
+.footer-widget{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.next-job{
+    background-color: #1C3C59;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 20px 0px;
+}
+
+.button-job{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a{
+    margin-right: 20px;
+  }
+}
+
+.footer-top{
+  padding: 60px;
+}

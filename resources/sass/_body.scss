@@ -10,7 +10,12 @@
   align-items: center;
 }
 
-.jumbo_slider{
+.bg-color{
+  background-color: white;
+  padding-top: 20px;
+}
+
+.main-content{
   margin-top: 50px;
 }
 
@@ -24,4 +29,26 @@
 
 .img_jumbo img{
   max-width: 500px;
+}
+
+.partners{
+  width: 100vw;
+  background-color: #1C3C59;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.roadmap{
+  display:flex;
+  list-style-type: none;
+  margin-bottom: 20px;
+  span{
+    margin-right: 10px;
+  }
 }

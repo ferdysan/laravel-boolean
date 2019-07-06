@@ -11104,6 +11104,15 @@ header {
   position: fixed;
   top: 0;
   background-color: white;
+  z-index: 2;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  max-width: 100%;
 }
 
 header nav {
@@ -11119,14 +11128,6 @@ header nav {
   padding: 10px;
 }
 
-header nav .logo {
-  width: 200px;
-}
-
-header nav .logo img {
-  max-width: 100%;
-}
-
 header nav .nav-item {
   margin-right: 20px;
 }
@@ -11134,7 +11135,7 @@ header nav .nav-item {
 .box-green {
   background-color: #61ce4e;
   width: 500px;
-  height: 100%;
+  height: 500px;
   position: absolute;
   right: 0;
   top: 0;
@@ -11168,7 +11169,12 @@ header nav .nav-item {
           align-items: center;
 }
 
-.jumbo_slider {
+.bg-color {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.main-content {
   margin-top: 50px;
 }
 
@@ -11185,6 +11191,34 @@ header nav .nav-item {
   max-width: 500px;
 }
 
+.partners {
+  width: 100vw;
+  background-color: #1C3C59;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.partners .partner {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.roadmap {
+  display: -webkit-box;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.roadmap span {
+  margin-right: 10px;
+}
+
 .btn-mod {
   background-color: #f6993f;
   color: white;
@@ -11193,5 +11227,46 @@ header nav .nav-item {
 .btn-mod:hover {
   background-color: #f6993f;
   color: white;
+}
+
+.footer-widget {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.next-job {
+  background-color: #1C3C59;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 60px;
+  margin: 20px 0px;
+}
+
+.button-job {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.button-job a {
+  margin-right: 20px;
+}
+
+.footer-top {
+  padding: 60px;
 }
 

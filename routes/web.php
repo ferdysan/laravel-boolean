@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('homepage', 'boolean_controll@index');
+
+Route::get('home', 'boolean_controll@index');
+Route::get('privacy-policy', 'boolean_controll@privacy-policy');
